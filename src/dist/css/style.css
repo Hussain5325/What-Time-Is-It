@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1050px) {
+  body {
+    font-size: 150px;
+  }
+}
+@media (max-width: 780px) {
+  body {
+    font-size: 100px;
+  }
+}
+@media (max-width: 520px) {
+  body {
+    font-size: 50px;
+  }
+}
+@media (max-width: 520px) {
+  body {
+    font-size: 50px;
+  }
+}
+@media (max-width: 280px) {
+  body {
+    font-size: 40px;
+  }
+}
+body {
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+  height: 100vh;
+  background-color: hsl(15deg, 100%, 72%);
+  color: hsl(14deg, 84%, 88%);
+  font-size: 200px;
+  font-family: Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

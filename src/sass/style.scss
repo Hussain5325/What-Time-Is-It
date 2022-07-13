@@ -1,0 +1,14 @@
+@forward "global";
+@use "abstract/colors";
+@use "abstract/fonts";
+
+body {
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    height: 100vh;
+    background-color: colors.$bg-color;
+    color: colors.$txt-color;
+    font-size: fonts.$font-s;
+    font-family: fonts.$font-f;
+}
